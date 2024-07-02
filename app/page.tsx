@@ -5,6 +5,7 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import { ParallexEffect } from "@/components/ParallexEffect";
 import ParticlesDemo from "@/components/ParticlesDemo";
+import { Reviews } from "@/components/Reviews";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { FaHome } from "react-icons/fa";
 
@@ -21,6 +22,7 @@ const Home: React.FC = () => {
         <Grid />
         <ParticlesDemo />
         <About />
+        <Reviews/>
       </div>
     </main>
   );
