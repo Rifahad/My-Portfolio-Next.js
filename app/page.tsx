@@ -14,15 +14,17 @@ const Home: React.FC = () => {
     <main className="relative bg-black text-white flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={NavItems} />
-        <img src="/GifImages/Robo2.gif" alt="Robo" className="w-[150px] fixed bottom-10 right-5" />
+        <a href="#" className="w-[150px] fixed bottom-10 right-5">
+        <img src="/GifImages/Robo2.gif" />
+        </a>
         <Hero />
         <GlobeDemo />
         <ParallexEffect />
         <Footer />
         <Grid />
-        <ParticlesDemo />
         <About />
         <Reviews/>
+        <ParticlesDemo />
       </div>
     </main>
   );

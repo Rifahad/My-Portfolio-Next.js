@@ -14,8 +14,8 @@ const ParticlesDemo = () => {
 
   return (
     <div className="relative flex h-[400px] w-full items-center justify-center overflow-hidden rounded-lg bg-transparent p-4 md:shadow-xl">
-      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-black md:text-9xl">
-        RtmaX
+      <span className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-7xl font-semibold leading-none text-transparent md:text-9xl">
+        Thanks For Visiting
       </span>
       <Particles
         className="absolute inset-0"
